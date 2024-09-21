@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="firstname">
+                <label for="firstname">Имя:</label>
+                <input class="input-group" type="text" id="first-name" placeholder="Введите имя:" required>
+            </div>
+            <div class="lastname">
+                <label for="lastname">Фамилия:</label>
+                <input class="input-group" type="text" id="last-name" placeholder="Введите фамилию:" required>
+            </div>
+            <button id="submit-btn">Отправить</button>
+            <div class="result">
+                <label class="label" for="result">Ответ: <span id="resultEl"></span></label>
+            </div>
+        </div>
+        <script src="js.js"></script>
+    </body>
+</html>

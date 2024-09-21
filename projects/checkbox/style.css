@@ -1,0 +1,21 @@
+
+.title{
+    font-size: 24px;
+    color: #6b8c7b;
+}
+label{
+    display:inline-block; 
+    width: 200px;
+}
+div{
+    margin-bottom: 15px;
+}
+.btn{
+    color: #6b8c7b;
+    width: 200px;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: #6b8c7b;
+    color: white;
+}
